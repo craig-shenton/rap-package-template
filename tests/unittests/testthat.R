@@ -7,3 +7,7 @@
 # * https://testthat.r-lib.org/reference/test_package.html#special-files
 
 library(testthat)
+
+source("utilities/source_folder.R")
+source_folder("utilities", recursive = TRUE)
+test_dir("tests/unittests/testthat")

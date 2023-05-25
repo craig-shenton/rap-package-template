@@ -2,6 +2,9 @@
 # Mac files
 .DS_Store
 
+# Large Language Models
+*.llm
+
 ####################################################################
 # GENERIC GITIGNORE FILE FOR R
 # Copied from https://github.com/github/gitignore/blob/main/R.gitignore

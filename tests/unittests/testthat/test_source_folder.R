@@ -23,7 +23,7 @@ test_that("source_folder() with a valid folder", {
 
   # Create 5 R scripts
   for (i in 1:5) {
-    file.create(paste0(temp_dir,"/script", i, ".R"))
+    file.create(paste0(temp_dir, "/script", i, ".R"))
   }
   expected <- length(list.files(temp_dir,
                                 pattern = "[.][rR]$",

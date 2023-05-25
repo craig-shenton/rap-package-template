@@ -1,3 +1,0 @@
-main:
-  store: _targets/
-  script: _targets.R
